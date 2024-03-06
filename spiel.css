@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.team-anzeige {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(250, 121, 74);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("yuriy-chemerys-M-52SPN77Bg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#team {
+    color: rgb(223, 8, 8);
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    height: 26px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    visibility: hidden;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.absenden {
+    visibility: hidden;
+}
